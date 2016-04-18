@@ -15,7 +15,7 @@
 <target name="run" depends="build">
    <java classname="helloworld" classpath="${helloant_jar}"/>
 </target>
-<target name="clean">
+<target name="clean"> 
    <delete dir="${dest}" />
    <delete file="${helloant_jar}" />
 </target>
